@@ -4,7 +4,7 @@ import numpy as np
 class Parameters():
     ''''Class specifying the Parameters  defining the fractal properties
     ''''
-
+    
     def __init__(self):
         self.Boundary = np.array([[0.,0.,0.],[1.,0.,0.],[1.,0.,0.],[0.,1.,0.],[0.,0.,1.],[1.,0.,1.],[1.,0.,1.],[0.,1.,1.]])
         self.Init_Node=np.array([0. ,0., 0.])
